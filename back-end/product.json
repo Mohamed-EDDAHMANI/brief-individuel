@@ -1,0 +1,195 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "img": "BoAt Stone-electronec.jpg",
+      "price": 250,
+      "description": "High-quality over-ear wireless headphones with noise-canceling technology.",
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone 12",
+      "img": "Bluetooth-headset -electronec.jpg",
+      "price": 340,
+      "description": "The latest smartphone with a stunning display, advanced camera, and lightning-fast performance.",
+      "category": "Electronics"
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "img": "iPadHoliday-electronec.jpg",
+      "price": 530,
+      "description": "Compact Bluetooth speaker with crisp sound and deep bass, perfect for on-the-go music.",
+      "category": "Electronics"
+    },
+    {
+      "id": 4,
+      "name": "Fitness Tracker Watch",
+      "img": "JBL-Headphones-electronec.jpg",
+      "price": 800,
+      "description": "Track your fitness goals with a smartwatch featuring heart rate monitoring and sleep tracking.",
+      "category": "Electronics"
+    },
+    {
+      "id": 5,
+      "name": "Smart TV 55 inch",
+      "img": "martin-podsiad-accesoire.jpg",
+      "price": 50,
+      "description": "55-inch 4K Ultra HD Smart TV with streaming capabilities and voice control.",
+      "category": "Accessories"
+    },
+    {
+      "id": 6,
+      "name": "Laptop Backpack",
+      "img": "PC-apple-electronec.jpg",
+      "price": 250,
+      "description": "Durable and stylish backpack designed to carry a laptop and other essentials.",
+      "category": "Electronics"
+    },
+    {
+      "id": 7,
+      "name": "Portable Charger",
+      "img": "PlayOn-keybord-electronec.jpg",
+      "price": 99,
+      "description": "Compact power bank with fast charging capability for your devices.",
+      "category": "Electronics"
+    },
+    {
+      "id": 8,
+      "name": "Travel Backpack",
+      "img": "Accessories.jpg",
+      "price": 990,
+      "description": "Spacious travel backpack with multiple compartments for organization.",
+      "category": "Accessories"
+    },
+    {
+      "id": 9,
+      "name": "Leather Wallet",
+      "img": "Aesthetic-Accessories.jpg",
+      "price": 120,
+      "description": "A premium leather wallet with multiple card slots and a sleek design.",
+      "category": "Accessories"
+    },
+    {
+      "id": 10,
+      "name": "Wireless Mouse",
+      "img": "sony-Electronic.jpg",
+      "price": 100,
+      "description": "Ergonomic wireless mouse with precision control and a long battery life.",
+      "category": "Electronics"
+    },
+    {
+      "id": 11,
+      "name": "Smartwatch Series 6",
+      "img": "Affordable-Accessories.jpg",
+      "price": 250,
+      "description": "Stylish and functional smartwatch with fitness tracking and customizable watch faces.",
+      "category": "Accessories"
+    },
+    {
+      "id": 12,
+      "name": "Portable Speaker",
+      "img": "ESSENTIAL-Accessories.jpg",
+      "price": 300,
+      "description": "Small yet powerful Bluetooth speaker, perfect for outdoor adventures.",
+      "category": "Accessories"
+    },
+    {
+      "id": 13,
+      "name": "Duffel Bag",
+      "img": "Homme-monture-Accessories.jpg",
+      "price": 330,
+      "description": "Large capacity duffel bag made from durable materials, ideal for travel or the gym.",
+      "category": "Accessories"
+    },
+    {
+      "id": 14,
+      "name": "Leather Belt",
+      "img": "Men-Round-Accessories.jpg",
+      "price": 90,
+      "description": "Stylish leather belt made from high-quality leather, suitable for any occasion.",
+      "category": "Accessories"
+    },
+    {
+      "id": 15,
+      "name": "Crossbody Bag",
+      "img": "Sunglasses-Accessories.jpg",
+      "price": 390,
+      "description": "Versatile crossbody bag with adjustable strap, perfect for everyday use.",
+      "category": "Accessories"
+    },
+    {
+      "id": 16,
+      "name": "Smartwatch Series 6",
+      "img": "Buy-Leather Messenger-Backpacks.jpg",
+      "price": 220,
+      "description": "Stylish and functional smartwatch with fitness tracking and customizable watch faces.",
+      "category": "Backpacks"
+    },
+    {
+      "id": 17,
+      "name": "Portable Speaker",
+      "img": "Father-Day-Backpacks.jpg",
+      "price": 2500,
+      "description": "Small yet powerful Bluetooth speaker, perfect for outdoor adventures.",
+      "category": "Backpacks"
+    },
+    {
+      "id": 18,
+      "name": "Duffel Bag",
+      "img": "nouv-Backpacks.jpg",
+      "price": 250,
+      "description": "Large capacity duffel bag made from durable materials, ideal for travel or the gym.",
+      "category": "Backpacks"
+    },
+    {
+      "id": 19,
+      "name": "Leather Belt",
+      "img": "Premium-PSD-Backpacks.jpg",
+      "price": 280,
+      "description": "Stylish leather belt made from high-quality leather, suitable for any occasion.",
+      "category": "Backpacks"
+    },
+    {
+      "id": 20,
+      "name": "Crossbody Bag",
+      "img": "sac-Backpacks.jpg",
+      "price": 230,
+      "description": "Versatile crossbody bag with adjustable strap, perfect for everyday use.",
+      "category": "Backpacks"
+    },
+    {
+      "id": 21,
+      "name": "Leather Belt",
+      "img": "The-Leather-Backpacks-Backpacks.jpg",
+      "price": 20,
+      "description": "Stylish leather belt made from high-quality leather, suitable for any occasion.",
+      "category": "Backpacks"
+    },
+    {
+      "id": 22,
+      "name": "Crossbody Bag",
+      "img": "TUMI-Backpacks.jpg",
+      "price": 300,
+      "description": "Versatile crossbody bag with adjustable strap, perfect for everyday use.",
+      "category": "Backpacks"
+    },
+    {
+      "id": 22,
+      "name": "Leather Belt",
+      "img": "VINTA _ S-Series Backpacks.jpg",
+      "price": 1000,
+      "description": "Stylish leather belt made from high-quality leather, suitable for any occasion.",
+      "category": "Backpacks"
+    },
+    {
+      "id": 24,
+      "name": "Wireless Mouse",
+      "img": "Sony-headphones -electronec.jpg",
+      "price": 210,
+      "description": "Ergonomic wireless mouse with precision control and a long battery life.",
+      "category": "Electronics"
+    }
+  ]
+  
