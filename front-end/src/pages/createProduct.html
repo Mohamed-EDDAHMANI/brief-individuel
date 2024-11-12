@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../output.css">
-    <title>Document</title>
+    <title>add Product</title>
 </head>
 <body>
     <header class="bg-white">
@@ -29,8 +29,8 @@
                         </svg>
                     </button>
     
-                    <div class="flex sm:hidden" id="toggel">
-                        <button  type="button" class="text-gray-600 hover:text-gray-500 focus:outline-none focus:text-gray-500" aria-label="toggle menu">
+                    <div class="flex sm:hidden">
+                        <button @click="isOpen = !isOpen" type="button" class="text-gray-600 hover:text-gray-500 focus:outline-none focus:text-gray-500" aria-label="toggle menu">
                             <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
                                 <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
                             </svg>                             
@@ -38,12 +38,11 @@
                     </div>
                 </div>
             </div>
-            <!-- <nav class="sm:flex sm:justify-center sm:items-center mt-4 bg-red-800 "> -->
-            <nav class=" flex justify-center mt-4 max-sm:items-center max-sm:z-50 max-sm:absolute max-sm:bg-amber-300 max-sm:w-full max-sm:top-17 max-sm:left-0 max-sm:h-0 max-sm:hidden" id="navToggel">
-                <div class="flex flex-col sm:flex-row text-center">
+            <nav :class="isOpen ? '' : 'hidden'" class="sm:flex sm:justify-center sm:items-center mt-4">
+                <div class="flex flex-col sm:flex-row">
                     <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="../index.html">Home</a>
-                    <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" >Products</a>
-                    <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="../pages/createProduct.html">Add Product</a>
+                    <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="./pages/productsFilter.html" >Products</a>
+                    <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Add Product</a>
                     <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Contact</a>
                     <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">About</a>
                 </div>
@@ -61,28 +60,36 @@
     </header>
 
 
-    <div class="w-full py-5 flex justify-end gap-4">
-        <div class="px-5">
-            <select id="optionsCategoris" class="px-3 py-1 mx-3 rounded-lg border-black border-solid border-2">
-                <option value="" disabled selected hidden>Categories</option>
-            </select>
-            <select id="optionsPrice" class="px-3 py-1 mx-3 rounded-lg border-black border-solid border-2">
-                <option value="" disabled selected hidden>price sorting</option>
-                <option value="Ascending">Ascending</option>
-                <option value="Descending">Descending</option>
-            </select>
-        </div>
+    <div class="mx-auto px-20  bg-red-800" >
+        <h1 class="text-2xl px-10">Create Your Now Product</h1>
+        <form action="">
+            <div class="flex gap-6 p-6 bg-blue-600" id="createContainer">
+                <div class="bg-gray-200 px-20 py-20">hello</div>
+                <div class="bg-gray-900">
+                    <div>
+                        <label for="">Type product name</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="">Type the price</label>
+                        <input type="number">
+                        </div>
+                        <div>
+                            <label for="">Type the category</label>
+                        <input type="text">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Description</label>
+                        <textarea name="description" id=""></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+         
     </div>
-
-
-
-
-
-    <div class="mt-16 px-10 " id="categoris-home-container">
-            
-    </div>
-
-
 
     <footer class="bg-gray-200">
         <div class="container mx-auto px-6 py-3 flex justify-between items-center">
@@ -90,6 +97,6 @@
             <p class="py-2 text-gray-500 sm:py-0">All rights reserved</p>
         </div>
     </footer>
-    <script src="../product.js"></script>
+    <script src="product.js"></script>
 </body>
 </html>

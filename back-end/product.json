@@ -173,15 +173,17 @@
       "img": "TUMI-Backpacks.jpg",
       "price": 300,
       "description": "Versatile crossbody bag with adjustable strap, perfect for everyday use.",
-      "category": "Backpacks"
+      "category": "Backpacks",
+      "newCollection": true
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "Leather Belt",
       "img": "VINTA _ S-Series Backpacks.jpg",
       "price": 1000,
       "description": "Stylish leather belt made from high-quality leather, suitable for any occasion.",
-      "category": "Backpacks"
+      "category": "Backpacks",
+      "newCollection": true
     },
     {
       "id": 24,
@@ -189,7 +191,8 @@
       "img": "Sony-headphones -electronec.jpg",
       "price": 210,
       "description": "Ergonomic wireless mouse with precision control and a long battery life.",
-      "category": "Electronics"
+      "category": "Electronics",
+      "newCollection": true
     }
   ]
   

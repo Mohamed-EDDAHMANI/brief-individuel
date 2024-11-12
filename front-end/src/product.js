@@ -8,6 +8,7 @@ async function getProducts() {
         }
         const data = await res.json();
         data.map(item => dataProduct.push(item));
+        localStorage.setItem('data' , JSON.stringify(dataProduct))
     } catch (error) {
         console.log('Error fetching data:', error);
     }
@@ -16,11 +17,12 @@ async function getProducts() {
 
 
 async function getcategoriList() {
-    const data = await getProducts();
+    const data = JSON.parse(localStorage.getItem('data'));
     let uniqueArrayCategoris = [];
 
     data.map(item => {
         const isInclude = uniqueArrayCategoris.includes(item.category)
+        console.log(isInclude)
         if (!isInclude) {
             uniqueArrayCategoris.push(item.category)
         }
@@ -56,7 +58,7 @@ async function displayCategoris( categoriList, dataProduct ) {
         if (currentPath.includes('index.html')) {
             let HTMLContainer = `
         <h3 class="text-gray-600 text-2xl font-medium ">${item}</h3>
-        <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6" id="cards-home-${item}"> </div>
+        <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6 " id="cards-home-${item}"> </div>
         `
         devContainer.innerHTML += HTMLContainer
         } else if (currentPath.includes('productsFilter.html')) {
@@ -138,4 +140,17 @@ async function triPrice(selectedPrice) {
         dataProduct.sort((a, b) => b.price - a.price);
         displayCategoris( arrayOfCategoris, dataProduct )
     }
+}
+
+
+
+//toogel function
+function toggelClick() {
+    const toggel = document.getElementById('toggel')
+    const navToggel = document.getElementById('navToggel')
+    toggel.addEventListener('click' , () => {
+        navToggel.style
+    })
+
+    
 }
